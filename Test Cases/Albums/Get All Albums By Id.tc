@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get All Albums By Id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e74e577b-4bf9-49a0-a70e-da02ffd52989</testCaseGuid>
+</TestCaseEntity>
