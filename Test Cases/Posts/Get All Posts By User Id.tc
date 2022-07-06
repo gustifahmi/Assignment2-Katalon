@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get All Posts By User Id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f152acbf-8e62-4045-8610-89e0fc39cdb8</testCaseGuid>
+</TestCaseEntity>
