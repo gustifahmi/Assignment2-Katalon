@@ -12,35 +12,35 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>0c5cc5ea-e167-4ea3-a8a5-7506bd8111b3</testSuiteGuid>
    <testCaseLink>
-      <guid>92c8747f-7c60-4b3b-88e4-377accae296f</guid>
+      <guid>cd0f7d03-4259-46fd-96f3-e6beff704066</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Posts/Create New Post</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ba0c890e-df62-4e9f-9500-208158878f2f</guid>
+      <guid>8b57d119-01a5-4fa8-8dd5-e8a06ae4027a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Posts/Delete Post</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c572744c-12f1-4ce7-9210-d03ce883c1c0</guid>
+      <guid>d980b02b-522e-433b-bc3e-6c90da9fe06a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Posts/Get All Posts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e6470af4-61c2-42ec-bc61-3bb8186b291f</guid>
+      <guid>407d447c-3b40-4009-8e54-9e70f1d40e4a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Posts/Get All Posts By User Id</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3cceba34-81e6-42dc-968b-142a41bda8d7</guid>
+      <guid>74d72faf-1336-491f-b8c2-96e9f1f9189b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Posts/Get Post By Id</testCaseId>
