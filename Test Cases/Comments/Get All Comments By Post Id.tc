@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get All Comments By Post Id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af005308-ca0c-439b-90b9-3c99d7ccef5c</testCaseGuid>
+</TestCaseEntity>

@@ -101,7 +101,6 @@ WS.verifyElementPropertyValue(response, '[45].postId', 10)
 WS.verifyElementPropertyValue(response, '[45].id', 46)
 WS.verifyElementPropertyValue(response, '[45].name', 'dignissimos et deleniti voluptate et quod')
 WS.verifyElementPropertyValue(response, '[45].email', 'Jeremy.Harann@waino.me')
-WS.verifyElementPropertyValue(response, '[45].body', 'exercitationem et id quae cum omnis\nvoluptatibus accusantium et quidem\nut ipsam sint\ndoloremque illo ex atque necessitatibus sed')
-</verificationScript>
+WS.verifyElementPropertyValue(response, '[45].body', 'exercitationem et id quae cum omnis\nvoluptatibus accusantium et quidem\nut ipsam sint\ndoloremque illo ex atque necessitatibus sed')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

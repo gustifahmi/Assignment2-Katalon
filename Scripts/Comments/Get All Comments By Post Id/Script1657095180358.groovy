@@ -17,4 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequestAndVerify(findTestObject('Comments/Create New Comment'))
+response = WS.sendRequestAndVerify(findTestObject('Comments/Get All Comments By Post Id'))
