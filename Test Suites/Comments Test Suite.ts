@@ -12,35 +12,35 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>4576e0f6-8348-42ad-aaca-8a0271b60f14</testSuiteGuid>
    <testCaseLink>
-      <guid>6fda9f44-e4ea-4e14-bc36-22f328b4c101</guid>
+      <guid>361e94f7-e316-477a-95a9-3e5caaaefa81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Comments/Create New Comment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b959e45e-3a4a-477f-9ef4-ecf269deb59e</guid>
+      <guid>6e40a066-e956-44fe-92f8-76cbaebb10fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Comments/Delete Comment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8ac04391-aa8a-4cd0-a416-026f3c0f879d</guid>
+      <guid>6e297506-c6c9-43a9-aea6-bcaa48b14a55</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Comments/Get All Comments</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1341f3d2-d80c-4d34-9edd-48c1f0109fb6</guid>
+      <guid>0d30c9b2-2f6b-42f7-ae9c-bf6eceb5cf84</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Comments/Get All Comments By Post Id</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>75cecaa7-0c62-4a05-9f12-47d168ea1e3b</guid>
+      <guid>3a1d8e00-e1ab-454d-9ac1-9ac1e082e4e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Comments/Get Comment By Id</testCaseId>
