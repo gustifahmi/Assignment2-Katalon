@@ -15,7 +15,7 @@
       <guid>6f90deaa-ae22-440f-97c7-38df0e899dc4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Users/Create User</testCaseId>
+      <testCaseId>Test Cases/Users/Create New User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Create User</name>
+   <name>Create New User</name>
    <tag></tag>
    <elementGuidId>66d3b596-3b91-4ad6-8c81-02b5074b13f1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
