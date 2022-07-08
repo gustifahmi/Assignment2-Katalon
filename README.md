@@ -3,6 +3,7 @@
 Nama: Gusti Fahmi Fadhila
 Kode Peserta: KSAT006ONL012
 
+### Langkah-langkah
 Langkah-Langkah dalam membuat automated API test di katalon:
 1. Buat Object Repository baru (klik kanan pada Object Repository -> New -> Web Service Request)
 2. Masukkan URL dan method
@@ -12,6 +13,7 @@ Langkah-Langkah dalam membuat automated API test di katalon:
 6. Pada Test Case tersebut ubah dari Send Request menjadi Send Request And Verify
 7. Jika semua test case dalam satu grup endpoint yang sama sudah selesai (misal /albums), maka jadikan satu test suite
 
+### API Test
 API yang ditest adalah sebagai berikut:
 1. Albums
    1) http://jsonplaceholder.typicode.com/albums POST (Create New Album)
