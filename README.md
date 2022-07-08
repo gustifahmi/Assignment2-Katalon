@@ -1,6 +1,6 @@
 # Assignment2-Katalon
 
-Nama: Gusti Fahmi Fadhila__
+Nama: Gusti Fahmi Fadhila  
 Kode Peserta: KSAT006ONL012
 
 ### Langkah-langkah
