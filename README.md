@@ -10,7 +10,7 @@ Langkah-Langkah dalam membuat automated API test di katalon:
 3. Jalankan dengan klik Test Request, maka akan muncul response-nya
 4. Tambahkan verifikasi sesuai dengan response yang dihasilkan. Yang pasti ada pada semua api adalah memverifikasi status code, yaitu 200 untuk setiap method GET dan DELETE serta 201 untuk setiap method POST. Lalu untuk yang mengembalikan response 1 item saja (Create New ... dan Get ... By Id), maka akan memverifikasi setiap fields dari item tersebut. Sedangkan untuk yang mengembalikan berupa array (Get All ...), maka memverifikasi semua field dari 10 item yang berbeda.
 5. Buat sebuah test case dengan klik Add to New Test Case
-6. Pada Test Case tersebut ubah dari Send Request menjadi Send Request And Verify
+6. Pada Test Case tersebut copy-paste verify yang ada di Object Repository ke Test Case 
 7. Jika semua test case dalam satu grup endpoint yang sama sudah selesai (misal /albums), maka jadikan satu test suite
 
 ### API Test

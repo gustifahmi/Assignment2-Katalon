@@ -18,5 +18,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequestAndVerify(findTestObject('Posts/Get Post By Id'))
+response = WS.sendRequestAndVerify(findTestObject('Posts/Get Post By Id'))
 
+WS.verifyResponseStatusCode(response, 200)
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+WS.verifyElementPropertyValue(response, 'userId', 1)
+WS.verifyElementPropertyValue(response, 'id', 1)
+WS.verifyElementPropertyValue(response, 'title', 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit')
+WS.verifyElementPropertyValue(response, 'body', 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto')

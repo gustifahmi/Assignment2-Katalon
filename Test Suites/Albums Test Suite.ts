@@ -43,7 +43,7 @@
       <guid>8ce06316-0004-401c-abc6-ab6dbadb64e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Albums/Get All Albums By Id</testCaseId>
+      <testCaseId>Test Cases/Albums/Get All Albums By User Id</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static org.assertj.core.api.Assertions.*
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -17,5 +18,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequestAndVerify(findTestObject('Users/Get User By Id'))
+response = WS.sendRequestAndVerify(findTestObject('Users/Get User By Id'))
 
+WS.verifyResponseStatusCode(response, 200)
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+WS.verifyElementPropertyValue(response, 'id', 1)
+WS.verifyElementPropertyValue(response, 'name', 'Leanne Graham')
+WS.verifyElementPropertyValue(response, 'username', 'Bret')
+WS.verifyElementPropertyValue(response, 'email', 'Sincere@april.biz')
+WS.verifyElementPropertyValue(response, 'address.street', 'Kulas Light')
+WS.verifyElementPropertyValue(response, 'address.suite', 'Apt. 556')
+WS.verifyElementPropertyValue(response, 'address.city', 'Gwenborough')
+WS.verifyElementPropertyValue(response, 'address.zipcode', '92998-3874')
+WS.verifyElementPropertyValue(response, 'address.geo.lat', '-37.3159')
+WS.verifyElementPropertyValue(response, 'address.geo.lng', '81.1496')
+WS.verifyElementPropertyValue(response, 'phone', '1-770-736-8031 x56442')
+WS.verifyElementPropertyValue(response, 'website', 'hildegard.org')
+WS.verifyElementPropertyValue(response, 'company.name', 'Romaguera-Crona')
+WS.verifyElementPropertyValue(response, 'company.catchPhrase', 'Multi-layered client-server neural-net')
+WS.verifyElementPropertyValue(response, 'company.bs', 'harness real-time e-markets')
